@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: lightblue;
+    overflow: hidden;
+}
+
+/* GLOBAL */
+
+.container {
+    margin:auto;
+    width: 100%;
+    height: 90%;
+}
+
+.container .inline {
+    display: inline;
+    float: left;
+    margin: auto;
+    width: 25%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+/* FLAG & POLE */
+
+.pole {
+    background-color: gray;
+    border: 1px solid #636262;
+    border-radius: 10px;
+    width: 2%;
+    height: 35%;
+    position: relative;
+    top: 65%;
+    left:8%;
+    display: inline;
+    float: left;
+  }
+
+  .flag {
+    width: 55%;
+    height: 15%;
+    border: solid 1px black;
+    display: inline flex;
+    float: left;
+    position: relative;
+    left:8%;
+    top:65%;
+    bottom: 25%;
+}
+
+.container .white {
+    background: white;
+    width: 100%;
+    height: 33.3333%;
+    flex: 1;
+}
+
+.container .blue {
+    background: blue;
+    width: 100%;
+    height: 33.3333%;
+    flex: 1;
+}
+
+.container .red {
+    background: red;
+    width: 100%;
+    height: 33.3333%;
+    flex: 1;
+}
+.flag .img {
+    position: absolute;
+    width: 33.3333%;
+    height: 35%;
+}
+
+/* FOOTER */ 
+.footer {
+    width: 100%;
+    height: 10%;
+    background: green;
+}
